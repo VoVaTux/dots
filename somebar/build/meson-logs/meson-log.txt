@@ -1,0 +1,78 @@
+Build started at 2023-04-04T15:28:08.410095
+Main binary: /usr/bin/python
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.0.1
+Source dir: /home/vli/dwl/somebar
+Build dir: /home/vli/dwl/somebar/build
+Build type: native build
+Project name: somebar
+Project version: 0.1.0
+C compiler for the host machine: cc (gcc 12.2.1 "cc (GCC) 12.2.1 20230201")
+C linker for the host machine: cc ld.bfd 2.40
+C++ compiler for the host machine: c++ (gcc 12.2.1 "c++ (GCC) 12.2.1 20230201")
+C++ linker for the host machine: c++ ld.bfd 2.40
+C compiler for the build machine: cc (gcc 12.2.1 "cc (GCC) 12.2.1 20230201")
+C linker for the build machine: cc ld.bfd 2.40
+C++ compiler for the build machine: c++ (gcc 12.2.1 "c++ (GCC) 12.2.1 20230201")
+C++ linker for the build machine: c++ ld.bfd 2.40
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Dependency wayland-client found: YES 1.21.0 (cached)
+Dependency wayland-cursor found: YES 1.21.0 (cached)
+Dependency cairo found: YES 1.17.8 (cached)
+Dependency pango found: YES 1.50.14 (cached)
+Dependency pangocairo found: YES 1.50.14 (cached)
+Program wayland-scanner found: YES (/usr/bin/wayland-scanner)
+Dependency wayland-protocols found: YES 1.31 (cached)
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --variable=pkgdatadir wayland-protocols` -> 0
+stdout:
+//usr/share/wayland-protocols
+-----------
+Got pkgconfig variable pkgdatadir : //usr/share/wayland-protocols
+Build targets in project: 1
+
+Found ninja-1.11.1 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmp2k9jn64r
+Command line:  c++ /tmp/tmp2k9jn64r/testfile.cpp -o /tmp/tmp2k9jn64r/output.obj -D_FILE_OFFSET_BITS=64 -c -std=c++17 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++17: YES
+Running compile:
+Working directory:  /home/vli/dwl/somebar/build/meson-private/tmpnongjjvo
+Command line:  cc /home/vli/dwl/somebar/build/meson-private/tmpnongjjvo/testfile.c -o /home/vli/dwl/somebar/build/meson-private/tmpnongjjvo/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/x86_64-pc-linux-gnu/12.2.1/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/vli/dwl/somebar/build/meson-private/tmpx14_un58
+Command line:  c++ /home/vli/dwl/somebar/build/meson-private/tmpx14_un58/testfile.cpp -o /home/vli/dwl/somebar/build/meson-private/tmpx14_un58/output.obj -c -Wno-parentheses -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/x86_64-pc-linux-gnu/12.2.1/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

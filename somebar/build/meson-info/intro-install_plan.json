@@ -1,0 +1,1 @@
+{"targets": {"/home/vli/dwl/somebar/build/somebar": {"destination": "{bindir}/somebar", "tag": "runtime"}}, "man": {"/home/vli/dwl/somebar/somebar.1": {"destination": "{mandir}/man1/somebar.1", "tag": "man"}}}
