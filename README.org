@@ -1,0 +1,34 @@
+This is just an Arch Linux customization. 
+
+* Dependencies
+
+** On arch
+#+begin_src bash
+sudo pacman -S wayland-protocols wlroots wayland cairo pango meson
+#+end_src bash
+
+* Install Guide
+
+#+begin_src bash
+git clone https://github.com/vovatux/dots && cd dots
+#+end_src bash
+
+#+begin_src bash
+cd dwl && sudo make install ; cd ..
+#+end_src bash
+
+#+begin_src bash
+cd somebar && sudo ninja -C build install ; cd ..
+#+end_src bash
+
+#+begin_src bash
+cd someblocks && sudo make install ; cd ..
+#+end_src bash
+
+
+#+begin_src bash
+cp emacs ~/.config/emacs
+#+end_src bash
+
+
+You are done :3
